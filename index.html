@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Practical Test — [Replace with your question title]</title>
+  <title>Practical Test — Property Inquiry Form</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!--
     ============================================================
     SUZA Web Technologies — Practical Test
-    Student Name      : [WRITE YOUR FULL NAME]
-    Registration No.  : [WRITE YOUR REG NUMBER]
-    Question Number   : Q[XXX]
-    Question Title    : [PASTE YOUR ASSIGNED QUESTION TITLE]
+    Student Name      : RAHMA SULEIMAN ABDALLA
+    Registration No.  : 24BIT038
+    Question Number   : Q057
+    Question Title    : Property Inquiry Form
 
     YOUR TASK (paste from QUESTIONS.docx):
-    [PASTE THE FULL TASK DESCRIPTION FROM THE QUESTIONS DOCUMENT]
+    Build a PROPERTY INQUIRY FORM. Include name, phone, email, property type interest (select), budget range
+(select), preferred location (text), move-in date, message (textarea), and 'Send Inquiry' button. Build the page
+with valid HTML5 (DOCTYPE, lang, charset, viewport, page title) using semantic elements (header, main,
+footer, and section/article/nav where they fit). Put all styles in styles.css — NO inline style attributes and NO
+<style> tags in the HTML. Use Flexbox or CSS Grid for the layout. Include at least 2 images (each with
+descriptive alt text — you may use the SVGs in assets/images/ or upload your own under that folder) and at
+least 2 working links, where at least one is an external link that opens in a new tab with rel="noopener
+noreferrer". Define your colours using CSS variables (custom properties). Add hover effects on interactive
+elements (links, buttons, cards). Add at least one @media query so the page still works on a 375px-wide
+phone screen. Write your full name, registration number, and question number in the top comment of both
+files and in the page footer. Do NOT use JavaScript and do NOT use any CSS framework (Bootstrap, Tailwind,
+etc.) — pure HTML + CSS only.
 
     REQUIREMENTS FOR EVERY QUESTION:
     1. Use semantic HTML5 (header, main, footer, section, article where appropriate).
@@ -39,40 +52,94 @@
     </div>
   </header>
 
-  <main>
-    <!-- ============================================================
-         REPLACE EVERYTHING INSIDE <main> WITH YOUR SOLUTION
-         ============================================================ -->
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inquiry Form</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
 
-    <section class="solution">
-      <h2>Your Solution Goes Here</h2>
-      <p>
-        Delete this placeholder and build the component described in your
-        assigned question. Remember: at least <strong>2 images</strong> and
-        <strong>2 links</strong>.
-      </p>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="pic">
+                <h1>Welcome to Property Inquiry Form</h1>
+            </div>
+            <div class="img_div">
+                <div class="left">
+                    <img src="img/coding.jpg" alt="">
+                    <h2>Luxury Apartment</h2>
+                </div>
+                <div class="right">
+                    <img src="img/coding.jpg" alt="">
+                    <h2>Modern Homes</h2>
+                </div>
+                <!-- <div class="left">
+                    <img src="img/coding.jpg" alt="">
+                    <h2>Luxury Apartment</h2>
+                </div>
+                <div class="right">
+                    <img src="img/coding.jpg" alt="">
+                    <h2>Modern Homes</h2>
+                </div> -->
+            </div>
+            <div class="form">
+                <h1>PROPERTY INQUIRY FORM</h1>
+                <form action="">
+                    <br>
+                    <label for="">Name</label>
+                    <input type="text"> </br>
+                    <br>
+                    <label for="">Phone</label>
+                    <input type="text"> </br>
+                    <br>
+                    <label for="">Email</label>
+                    <input type="email"> </br>
+                    <br>
+                    <label for="">Property type interest</label>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select> </br>
+                    <br>
+                    <label for="">Budget Range</label>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select> </br>
+                    <br>
+                    <label for="">Preferred Location</label>
+                    <input type="text"> </br>
+                    <br>
+                    <label for="">Move-in date</label>
+                    <input type="text"> </br>
+                    <br>
+                    <label for="">message</label>
+                    <textarea name="" id=""></textarea> </br>
+                    <div>
+                        <button>Send Inquiry</button>
+                    </div>
+                </form>
+            </div>
 
-      <img src="assets/images/banner.svg" alt="Sample banner — replace with your own content" />
-
-      <p>
-        Helpful reference:
-        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
-          MDN Web Docs
-        </a>
-        ·
-        <a href="https://massoudhamad.github.io/web-technologies/index.html" target="_blank" rel="noopener noreferrer">
-          Course site
-        </a>
-      </p>
-    </section>
-
-  </main>
+        </main>
+        <footer>
+            <p>&copy; Property Inquiry</p>
+        </footer>
+    </div>
 
   <footer class="page-footer">
     <p>
-      Submitted by: <strong>[Your Name]</strong> ·
-      Reg No: <strong>[Your Reg No]</strong> ·
-      Question: <strong>Q[XXX]</strong>
+      Submitted by: <strong>RAHMA SULEIMAN ABDALLA</strong> ·
+      Reg No: <strong>24BIT038</strong> ·
+      Question: <strong>Q057</strong>
     </p>
     <p>
       <small>
@@ -83,4 +150,5 @@
   </footer>
 
 </body>
+
 </html>
